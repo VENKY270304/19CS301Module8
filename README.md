@@ -1,5 +1,9 @@
-# 19CS301Module8
-EXPTNO.8a Program to find Find the simple interest
+# 19CS301-Module8
+
+Reg no: 212223020021
+Name: Ranjith P
+
+EXP NO.8a Program to find the simple interest
 
 ### Aim: To Write a Python Program to find Find the simple interest by getting the principal, rate and time value from the user
 ### Algorithm:
@@ -96,6 +100,7 @@ STEP 8: Stop.
           arr2 = list(set(arr))
           arr2.sort()
 print(arr2[-2])
+```
 
 ### Output:
  
@@ -140,6 +145,37 @@ f,l = int(input()),int(input())
 
 
 ### Result: Thus, the given program is implemented and executed successfully .
- 
 
+
+SEB:
+ ### Aim:
+To write a Python program that prints messages based on the value of an integer using conditional statements.
+
+### Algorithm:
+1.Start the program.
+2.Accept an integer input from the user.
+3.Use conditional statements to check:
+       If the number is odd, print "Weird".
+       If the number is even and in the range 2 to 5 (inclusive), print "Not Weird".
+       If the number is even and in the range 6 to 20 (inclusive), print "Weird".
+       If the number is even and greater than 20, print "Not Weird".
+4.End the program.
+
+### Program:
+```
+n = int(input().strip())
+if(n%2==0):
+    if(n>=2 and n<=5):
+        print("Not Weird")
+    elif(n>=6 and n<=20):
+        print("Weird")
+    elif(n>=20):
+        print("Not Weird")
+else:
+    print("Weird")
+```
+### Output:
+![Screenshot 2025-05-02 194411](https://github.com/user-attachments/assets/f7c2af24-35c8-4e13-9137-6ac737e5fd38)
+
+### Result: Thus, the given program is implemented and executed successfully .
 
