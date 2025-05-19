@@ -1,7 +1,7 @@
 # 19CS301-Module8
 
-Reg no: 212223020021
-Name: Ranjith P
+Reg no: 212222040177
+Name: Venkatesan M
 
 EXP NO.8a Program to find the simple interest
 
